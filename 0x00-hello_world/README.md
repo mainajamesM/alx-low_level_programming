@@ -11,4 +11,8 @@ Use the function puts
 mandatory
 Write a C program that prints exactly with proper grammar, but the outcome is a piece of art
 
-6. Size is not grandeur, and territory does not make a natio
+6. Size is not grandeur, and territory does not make a natin
+
+Write a script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
+
+The C file name will be saved in the variable $CFILE.
