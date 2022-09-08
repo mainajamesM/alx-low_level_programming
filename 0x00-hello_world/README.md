@@ -10,3 +10,5 @@ Use the function puts
 
 mandatory
 Write a C program that prints exactly with proper grammar, but the outcome is a piece of art
+
+6. Size is not grandeur, and territory does not make a natio
