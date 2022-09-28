@@ -1,25 +1,48 @@
-                                                                                                                                       
-#include "main.h"                                                                                                                       
+nclude "main.h"                                                                                                                       
                                                                                                                                         
 /**                                                                                                                                     
- *  * factorial - Returns the factorial of a given number.                                                                                 
- *   * @n: The number to find the factorial of.                                                                                             
- *    *                                                                                                                                      
- *     * Return: If n > 0 - the factorial of n.                                                                                               
- *      *         If n < 0 - 1 to indicate an error.                                                                                           
+ *  * _pow_recursion - Returns the value of x raised to the power of y.                                                                    
+ *   * @x: The number to be raised.                                                                                                         
+ *    * @y: The power.                                                                                                                       
+ *     *                                                                                                                                      
+ *      * Return: The value of x raised to the power of y.                                                                                     
  *       */                                                                                                                                     
-int factorial(int n)                                                                                                                    
+int _pow_recursion(int x, int y)                                                                                                        
 {                                                                                                                                       
-	        int result = n;                                                                                                                 
+	        int result = x;                                                                                                                 
 		                                                                                                                                        
-		        if (n < 0)                                                                                                                      
+		        if (y < 0)                                                                                                                      
 				                return (-1);                                                                                                            
 			                                                                                                                                        
-			        else if (n >= 0 && n <= 1)                                                                                                      
+			        else if (y == 0)                                                                                                                
 					                return (1);                                                                                                             
 				                                                                                                                                        
-				        result *= factorial(n - 1);                                                                                                     
+				        result *= _pow_recursion(x, y - 1);                                                                                             
 					                                                                                                                                        
 					        return (result);                                                                                                                
 }
+
+                                                                                   
+                                                                                                                                        
+                                                                                             
+                                    
+                          
+                                                                                  
+                                                   
+                                          
+                                                                                            
+                                                                
+                                                                                                                              
+                                                             
+		                                                                                                                                      
+
+
+
+
+
+
+
+					                                                                                                                                        
+
+
 
